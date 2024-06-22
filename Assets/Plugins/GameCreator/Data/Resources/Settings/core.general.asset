@@ -24,7 +24,7 @@ MonoBehaviour:
           m_Encryption:
             rid: 5594997071065907202
           m_Storage:
-            rid: 5594997071065907203
+            rid: 5652034460014084825
           m_Load: 0
           m_Scene:
             m_Property:
@@ -38,10 +38,10 @@ MonoBehaviour:
     - rid: 5594997071065907202
       type: {class: EncryptionNone, ns: GameCreator.Runtime.Common.SaveSystem, asm: GameCreator.Runtime.Core}
       data: 
-    - rid: 5594997071065907203
-      type: {class: StoragePlayerPrefs, ns: GameCreator.Runtime.Common.SaveSystem,
-        asm: GameCreator.Runtime.Core}
-      data: 
     - rid: 5594997071065907204
       type: {class: GetSceneActive, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 5652034460014084825
+      type: {class: StoragePlayerPrefs, ns: GameCreator.Runtime.Common.SaveSystem,
+        asm: GameCreator.Runtime.Core}
       data: 
