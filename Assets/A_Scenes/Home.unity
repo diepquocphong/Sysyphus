@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.13062292, g: 0.09659228, b: 0.062468957, a: 1}
+  m_IndirectSpecularColor: {r: 0.13068968, g: 0.0966158, b: 0.06247001, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1735,6 +1735,7 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 5652034328213585920
+    - rid: 5652034536825159871
     - rid: 5652034513373757674
   references:
     version: 2
@@ -1777,6 +1778,19 @@ MonoBehaviour:
     - rid: 5652034513373757676
       type: {class: GetGameObjectNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
+    - rid: 5652034536825159871
+      type: {class: InstructionCommonSaveGame, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_SaveSlot:
+          m_Property:
+            rid: 5652034536825159872
+    - rid: 5652034536825159872
+      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
 --- !u!114 &147817783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5347,6 +5361,7 @@ MonoBehaviour:
     m_Instructions:
     - rid: 5652034328213585920
     - rid: 5652034460014084780
+    - rid: 5652034536825159873
     - rid: 5652034513373757680
   references:
     version: 2
@@ -5402,6 +5417,19 @@ MonoBehaviour:
     - rid: 5652034513373757682
       type: {class: GetGameObjectNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
+    - rid: 5652034536825159873
+      type: {class: InstructionCommonSaveGame, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_SaveSlot:
+          m_Property:
+            rid: 5652034536825159874
+    - rid: 5652034536825159874
+      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
 --- !u!114 &449269851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8627,6 +8655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Instructions:
     m_Instructions:
+    - rid: 5652034536825159875
     - rid: 5652034460014084169
     - rid: 5652034460014084891
     - rid: 5652034460014084311
@@ -8872,6 +8901,19 @@ MonoBehaviour:
       type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_GameObject: {fileID: 396565013}
+    - rid: 5652034536825159875
+      type: {class: InstructionCommonLoadGame, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_SaveSlot:
+          m_Property:
+            rid: 5652034536825159876
+    - rid: 5652034536825159876
+      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
 --- !u!1 &673773070
 GameObject:
   m_ObjectHideFlags: 0

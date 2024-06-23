@@ -22350,6 +22350,8 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 5652034536825159863
+    - rid: 5652034536825159877
+    - rid: 5652034536825159883
     - rid: 5652034536825159867
   m_TriggerEvent:
     rid: 5652034536825159862
@@ -22397,6 +22399,84 @@ MonoBehaviour:
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 0
+    - rid: 5652034536825159877
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_GameObject:
+          m_Property:
+            rid: 5652034536825159878
+        m_Active:
+          m_Property:
+            rid: 5652034536825159879
+    - rid: 5652034536825159878
+      type: {class: GetGameObjectChildByIndex, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Transform:
+          m_Property:
+            rid: 5652034536825159880
+        m_Index:
+          m_Property:
+            rid: 5652034536825159881
+    - rid: 5652034536825159879
+      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0
+    - rid: 5652034536825159880
+      type: {class: GetGameObjectByTag, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Tag:
+          m_Property:
+            rid: 5652034536825159882
+    - rid: 5652034536825159881
+      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0
+    - rid: 5652034536825159882
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: JoystickCanvas
+    - rid: 5652034536825159883
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_GameObject:
+          m_Property:
+            rid: 5652034536825159884
+        m_Active:
+          m_Property:
+            rid: 5652034536825159885
+    - rid: 5652034536825159884
+      type: {class: GetGameObjectChildByIndex, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Transform:
+          m_Property:
+            rid: 5652034536825159886
+        m_Index:
+          m_Property:
+            rid: 5652034536825159887
+    - rid: 5652034536825159885
+      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0
+    - rid: 5652034536825159886
+      type: {class: GetGameObjectByTag, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Tag:
+          m_Property:
+            rid: 5652034536825159888
+    - rid: 5652034536825159887
+      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 5652034536825159888
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: JoystickCanvas
 --- !u!65 &1239274472
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32624,7 +32704,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 90
+  far clip plane: 200
   field of view: 60
   orthographic: 0
   orthographic size: 5
