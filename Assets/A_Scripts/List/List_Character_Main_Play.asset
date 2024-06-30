@@ -29,6 +29,8 @@ MonoBehaviour:
         m_Source:
         - rid: 5652034460014084122
         - rid: 5652034460014084128
+        - rid: 5652034684445524880
+        - rid: 5652034684445524888
         m_TypeID:
           m_String: game-object
     - rid: 5652034460014084122
@@ -58,4 +60,32 @@ MonoBehaviour:
         m_Breakpoint: 0
         m_IsEnabled: 1
         m_Value: {fileID: 2545433705157568388, guid: ef23c94476f594af8b75a989d3567340,
+          type: 3}
+    - rid: 5652034684445524880
+      type: {class: IndexVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 5652034684445524881
+    - rid: 5652034684445524881
+      type: {class: ValueGameObject, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: {fileID: 5569946966624177555, guid: 076e678d4a0304201a232f9111b76bd3,
+          type: 3}
+    - rid: 5652034684445524888
+      type: {class: IndexVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 5652034684445524889
+    - rid: 5652034684445524889
+      type: {class: ValueGameObject, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: {fileID: 8544259316573254308, guid: 0478a2f22018645eea2c2a7d375f6030,
           type: 3}
